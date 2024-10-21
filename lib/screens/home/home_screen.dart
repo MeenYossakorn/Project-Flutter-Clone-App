@@ -26,7 +26,7 @@ class HomeScreen extends StatelessWidget {
             const SizedBox(width: defaultPadding / 2),
             Text(
               "NEW COLLECTION",
-              style: Theme.of(context).textTheme.bodyText1,
+              style: Theme.of(context).textTheme.bodyLarge,
             ),
           ],
         ),
