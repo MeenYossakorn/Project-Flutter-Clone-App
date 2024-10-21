@@ -4,7 +4,6 @@ import 'package:stylish/constants.dart';
 import 'package:stylish/screens/home/components/categories.dart';
 import 'package:stylish/screens/home/components/search_form.dart';
 
-
 class NextScreen extends StatelessWidget {
   const NextScreen({Key? key}) : super(key: key);
 
@@ -22,7 +21,7 @@ class NextScreen extends StatelessWidget {
             const SizedBox(width: defaultPadding / 2),
             Text(
               "NEW COLLECTION",
-              style: Theme.of(context).textTheme.bodyText1,
+              style: Theme.of(context).textTheme.bodyLarge,
             ),
           ],
         ),
@@ -56,7 +55,6 @@ class NextScreen extends StatelessWidget {
               child: SearchForm(),
             ),
             Categorys(),
-
           ],
         ),
       ),
